@@ -32,11 +32,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center mx-auto bg-gray-200/20 dark:bg-black/10 text-gray-950 shadow-lg shadow-neutral-600/5 backdrop-blur-lg border border-gray-800/10 max-w-5xl rounded-md px-4 py-2">
         <Link to="/" className="p-1">
-          <img
-            src={logo}
-            alt="logo"
-            className="w-28 invert dark:invert-0"
-          />
+          <img src={logo} alt="logo" className="w-28 invert dark:invert-0" />
         </Link>
 
         {/* Desktop menu */}
@@ -63,16 +59,16 @@ const Navbar = () => {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? (
-            <X className="w-6 h-6" />
+            <X className="w-6 h-6 dark:text-white" />
           ) : (
-            <Menu className="w-6 h-6" />
+            <Menu className="w-6 h-6 dark:text-white" />
           )}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <ul className="md:hidden flex flex-col items-center gap-2 py-4 bg-white dark:bg-gray-900 shadow-md border-t border-gray-300 dark:border-gray-700">
+        <ul className="md:hidden absolute w-full h-fit   flex flex-col items-center gap-2 py-4 bg-white dark:bg-gray-900 shadow-md border-t border-gray-300 dark:border-gray-700">
           {navItems.map((navItem, i) => (
             <li key={i} className="w-full px-2">
               <Link
@@ -80,7 +76,7 @@ const Navbar = () => {
                 className={`block px-4 py-2 rounded-md text-center w-full ${
                   location.pathname === navItem.link
                     ? "bg-black text-white dark:bg-white dark:text-black"
-                    : "hover:bg-gray-200 dark:hover:bg-gray-700"
+                    : "hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-white"
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >

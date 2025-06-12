@@ -10,13 +10,12 @@ function App() {
       <div>
         {/* Navbar */}
         <Navbar />
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-        </Routes>
-        {/* Profile Section */}
-        {/* Information */}
-        {/* Projects */}
-        {/* Contact */}
+        <main className='max-w-7xl mx-auto py-4 px-2'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+       
       </div>
     </BrowserRouter>
   );
