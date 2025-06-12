@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import SocialSection from "./SocialSection";
-import Project from "./Project";
+import SkillSection from "./SkillSection";
 
 const ProfileSection = () => {
   const [profile, setProfile] = useState(null);
@@ -72,7 +72,7 @@ const ProfileSection = () => {
         <p className="my-2">{profile.bio}</p>
         <div className="md:flex gap-2">
           <SocialSection />
-          <Project/>
+          <SkillSection/>
         </div>
       </div>
     </div>

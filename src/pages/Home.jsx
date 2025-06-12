@@ -1,11 +1,12 @@
 import React from 'react'
-import { ProfileSection } from '../components';
+import { ProfileSection, Project } from '../components';
 
 const Home = () => {
   return (
     <div className="text-black  dark:text-white">
       {/* Profile Section */}
       <ProfileSection/>
+      <Project/>
       {/* Information */}
       {/* Projects */}
       {/* Contact */}

@@ -9,7 +9,7 @@ const Project = () => {
   ];
 
   return (
-    <div className="border w-full border-gray-800/10 dark:border-gray-200/10  p-2  rounded">
+    <div className="border w-1/2 border-gray-800/10 dark:border-gray-200/10  p-2  rounded">
       <h1 className="text-sm font-semibold flex md:py-2 justify-center items-center gap-1">
         My Products
       </h1>
