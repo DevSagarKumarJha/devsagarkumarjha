@@ -13,7 +13,6 @@ const ProfileSection = () => {
         const res = await axios.get(
           "https://api.github.com/users/devsagarkumarjha"
         );
-        console.log(res.data);
         setProfile(res.data);
       } catch (err) {
         console.error("Failed to fetch profile", err);
@@ -24,7 +23,6 @@ const ProfileSection = () => {
         const res = await axios.get(
           "https://api.franznkemaka.com/github-streak/stats/devsagarkumarjha"
         );
-        console.log(res.data);
         setStreak(res.data);
       } catch (error) {
         console.log(error);
@@ -70,7 +68,7 @@ const ProfileSection = () => {
           </div>
         </div>
         <p className="my-2">{profile.bio}</p>
-        <div className="md:flex gap-2">
+        <div className="flex-col md:flex-row gap-2 ">
           <SocialSection />
           <SkillSection/>
         </div>
