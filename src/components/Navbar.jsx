@@ -30,7 +30,7 @@ const Navbar = () => {
         showNavbar ? "translate-y-0" : "-translate-y-full"
       } sticky top-0`}
     >
-      <div className="flex justify-between items-center mx-auto bg-gray-200/20 dark:bg-black/10 text-gray-950 shadow-lg shadow-neutral-600/5 backdrop-blur-lg border border-gray-800/10 max-w-5xl rounded-md px-4 py-2">
+      <div className="flex justify-between items-center mx-auto bg-gray-200/20 dark:bg-black/10 text-gray-950 shadow-lg shadow-neutral-600/5 backdrop-blur-lg border border-gray-800/10 md:max-w-5xl rounded-md px-4 py-2">
         <Link to="/" className="p-1">
           <img src={logo} alt="logo" className="w-28 invert dark:invert-0" />
         </Link>

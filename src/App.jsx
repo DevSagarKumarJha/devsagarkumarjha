@@ -7,15 +7,15 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div>
+      <div className='p-0 m-0'>
         {/* Navbar */}
         <Navbar />
-        <main className='max-w-7xl mx-auto py-4 px-2'>
+        <main className='max-w-7xl mx-auto sm:py-4 sm:px-2'>
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
-       
+
       </div>
     </BrowserRouter>
   );

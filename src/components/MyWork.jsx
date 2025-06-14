@@ -16,7 +16,7 @@ const languageColors = {
 
 const ProjectCard = ({ repo, badgeClass, align = "left" }) => (
   <div
-    className={`bg-white dark:bg-gray-800 p-4 rounded-md shadow-md border border-gray-200 dark:border-gray-700 w-full max-w-md ${
+    className={`bg-white dark:bg-gray-800 p-4 rounded-md shadow-sm border border-gray-200 dark:border-gray-700 w-full max-w-sm ${
       align === "right" ? "text-right" : ""
     }`}
   >
@@ -123,7 +123,7 @@ const MyWorks = () => {
               </div>
 
               {/* Timeline dot */}
-              <div className="z-10 w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-md relative">
+              <div className="z-10 w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-sm relative">
                 <FaGithub className="text-xs" />
               </div>
 

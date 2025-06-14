@@ -36,7 +36,7 @@ const ProfileSection = () => {
   if (!profile) return <div>Loading profile...</div>;
 
   return (
-    <div className="flex flex-col md:flex-row gap-2 text-gray-950 dark:text-white p-2 max-w-7xl ">
+    <div className="flex flex-col md:flex-row gap-2 text-gray-950 dark:text-white p-2 md:max-w-7xl ">
       <div>
         <img
           src={profile.avatar_url}
@@ -68,7 +68,7 @@ const ProfileSection = () => {
           </div>
         </div>
         <p className="my-2">{profile.bio}</p>
-        <div className="flex-col md:flex-row gap-2 ">
+        <div className="flex flex-col md:flex-row gap-2 ">
           <SocialSection />
           <SkillSection/>
         </div>

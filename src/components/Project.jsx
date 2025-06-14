@@ -10,7 +10,7 @@ const ProjectCard = ({ name, url, description, techStack, image, status }) => {
   const isComingSoon = status === "coming-soon";
 
   const baseCardClass =
-    "relative border rounded-lg p-4 shadow-sm transition duration-200 space-y-2";
+    "relative border rounded-lg mx-auto p-4 shadow-sm transition duration-200 space-y-2";
   const cardBorder = "border-gray-300 dark:border-gray-700";
   const cardEffect = isComingSoon
     ? "opacity-40 blur-[1px] pointer-events-none"
@@ -81,7 +81,7 @@ const Project = () => {
   ];
 
   return (
-    <section className="w-full p-4 border border-gray-800/10 dark:border-gray-200/10 rounded">
+    <section className="w-full border border-gray-800/10 dark:border-gray-200/10 rounded">
       <h1 className="text-sm lg:text-2xl font-semibold flex justify-center items-center mb-4">
         My Products
       </h1>
