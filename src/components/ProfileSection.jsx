@@ -13,11 +13,13 @@ const ProfileSection = () => {
         const res = await axios.get(
           "https://api.github.com/users/devsagarkumarjha"
         );
+        console.log(res.data)
         setProfile(res.data);
       } catch (err) {
         console.error("Failed to fetch profile", err);
       }
     };
+
     const fetchStreak = async () => {
       try {
         const res = await axios.get(
@@ -33,47 +35,92 @@ const ProfileSection = () => {
     fetchStreak();
   }, []);
 
-  if (!profile) return <div>Loading profile...</div>;
+  if (!profile)
+    return (
+      <div role="status" aria-live="polite">
+        Loading profile...
+      </div>
+    );
 
   return (
-    <div className="flex flex-col md:flex-row gap-2 text-gray-950 dark:text-white p-2 md:max-w-7xl ">
-      <div>
-        <img
-          src={profile.avatar_url}
-          alt="Avatar"
-          className="min-w-xs rounded-md"
-        />
-      </div>
+    <main className="flex flex-col md:flex-row gap-4 text-gray-950 dark:text-white p-4 max-w-7xl mx-auto">
+      <section
+        aria-labelledby="profile-heading"
+        className="w-full rounded border p-4 border-gray-800/10 dark:border-gray-200/10 shadow-md"
+      >
+        <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
+          {/* Profile Image */}
+          <aside
+            className="flex-shrink-0"
+            role="img"
+            aria-label="GitHub profile picture"
+          >
+            <img
+              src={profile.avatar_url}
+              width={200}
+              height={200}
+              alt={`${profile.name}'s GitHub avatar`}
+              className="rounded-full shadow-md object-cover aspect-square"
+            />
+          </aside>
 
-      <div className="border w-full rounded p-4 space-y-5 border-gray-800/10 dark:border-gray-200/10 shadow">
-        <h2 className="text-2xl md:text-4xl font-bold text-black dark:text-white">
-          {profile.name}
-        </h2>
-        <div className="flex text-green-800 dark:text-green-500 text-xs md:text-lg gap-2 w-full justify-start items-center">
-          <div className="w-1/4 border p-2 rounded border-green-500/30 text-center shadow">
-            <p className="font-bold">{profile.public_repos}</p>
-            <h2>Repositories</h2>
-          </div>
-          <div className=" w-1/4  border p-2 rounded border-green-500/30 text-center shadow">
-            <p className="font-bold">{streak?.totalContributions}</p>
-            <h2>Contributions</h2>
-          </div>
-          <div className=" w-1/4 border p-2 rounded border-green-500/30 text-center shadow">
-            <p className=" font-bold">{profile.followers}</p>
-            <h2>Followers</h2>
-          </div>
-          <div className=" w-1/4  border p-2 rounded border-green-500/30 text-center shadow">
-            <p className="font-bold">{profile.following}</p>
-            <h2>Following</h2>
-          </div>
+          {/* Name & Bio */}
+          <header className="space-y-2 text-center md:text-left">
+            <h1 id="profile-heading" className="text-2xl font-bold">
+              {profile.name}
+            </h1>
+            <p className="text-sm lg:text-base">{profile.bio}</p>
+          </header>
         </div>
-        <p className="my-2">{profile.bio}</p>
-        <div className="flex flex-col md:flex-row gap-2 ">
+
+        {/* Stats */}
+        <section
+          className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs md:text-sm text-center text-green-800 dark:text-green-400"
+          aria-label="GitHub statistics"
+        >
+          <div
+            className="border p-2 rounded border-green-500/30 shadow"
+            role="group"
+            aria-label="Repositories"
+          >
+            <p className="font-bold text-lg">{profile.public_repos}</p>
+            <span>Repositories</span>
+          </div>
+          <div
+            className="border p-2 rounded border-green-500/30 shadow"
+            role="group"
+            aria-label="Commits"
+          >
+            <p className="font-bold text-lg">
+              {streak?.totalContributions ?? "—"}
+            </p>
+            <span>Commits</span>
+          </div>
+          <div
+            className="border p-2 rounded border-green-500/30 shadow"
+            role="group"
+            aria-label="Followers"
+          >
+            <p className="font-bold text-lg">{profile.followers}</p>
+            <span>Followers</span>
+          </div>
+          <div
+            className="border p-2 rounded border-green-500/30 shadow"
+            role="group"
+            aria-label="Following"
+          >
+            <p className="font-bold text-lg">{profile.following}</p>
+            <span>Following</span>
+          </div>
+        </section>
+
+        {/* Social + Skills */}
+        <section className="flex flex-col md:flex-row gap-4 mt-6">
           <SocialSection />
-          <SkillSection/>
-        </div>
-      </div>
-    </div>
+          <SkillSection />
+        </section>
+      </section>
+    </main>
   );
 };
 

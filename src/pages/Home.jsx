@@ -1,6 +1,5 @@
 import React from "react";
-import { ProfileSection, Project } from "../components";
-import MyWorks from "../components/MyWork";
+import { ProfileSection, Project, MyWorks } from "../components";
 
 const Home = () => {
   return (

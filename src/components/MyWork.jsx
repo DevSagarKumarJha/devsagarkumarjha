@@ -26,7 +26,7 @@ const ProjectCard = ({ repo, badgeClass, align = "left" }) => (
         {repo.name}
       </a>
     </h3>
-    <p className="text-sm text-gray-500">
+    <p className="text-sm text-green-500">
       Created: {format(new Date(repo.created_at), "MMM dd, yyyy")}
     </p>
     <p className="mt-2 text-sm text-gray-700 dark:text-gray-300">
@@ -109,7 +109,7 @@ const MyWorks = () => {
             >
               {/* Left side (desktop only) */}
               <div
-                className={`hidden md:flex justify-end w-1/2 pr-8 ${
+                className={`hidden md:flex justify-end md:w-1/2 pr-8 ${
                   isLeft ? "" : "invisible"
                 }`}
               >
@@ -129,7 +129,7 @@ const MyWorks = () => {
 
               {/* Right side (desktop only) */}
               <div
-                className={`hidden md:flex justify-start w-1/2 pl-8 ${
+                className={`hidden md:flex justify-start md:w-1/2 pl-8 ${
                   isLeft ? "invisible" : ""
                 }`}
               >
@@ -143,7 +143,7 @@ const MyWorks = () => {
               </div>
 
               {/* Mobile full-width fallback */}
-              <div className="md:hidden mt-4 w-full">
+              <div className="md:hidden flex justify-center items-center mt-4 w-full">
                 <ProjectCard repo={repo} badgeClass={badgeClass} />
               </div>
             </MotionDiv>
@@ -159,7 +159,7 @@ const MyWorks = () => {
         <div className="text-center mt-4">
           <button
             onClick={() => setShowAll((prev) => !prev)}
-            className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 transition"
+            className="px-4 py-2 rounded font-semibold bg-blue-900 text-white hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 transition"
           >
             {showAll ? "Show Less" : "Show All"}
           </button>
