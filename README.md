@@ -81,7 +81,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 ### ⏱️ WakaTime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-325%20hrs%2046%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-323%20hrs%2041%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-84.0%20thousand%20lines%20of%20code-blue)
 
@@ -124,16 +124,18 @@ Sunday                   6 commits           █░░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+TypeScript               3 hrs 16 mins       ████████████████████████░   95.48 % 
+Other                    8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.97 % 
+CSS                      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  3 hrs 26 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+devsagarkumarjha         3 hrs 26 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  3 hrs 26 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -149,7 +151,7 @@ HTML                     1 repo              ███░░░░░░░░�
 
 
 
- Last Updated on 10/12/2025 12:40:11 UTC
+ Last Updated on 11/12/2025 01:26:27 UTC
 <!--END_SECTION:waka-->
 
 ---
