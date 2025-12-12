@@ -6,7 +6,7 @@
 
 
 <!-- TYPING:START -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=70A5FD&center=true&vCenter=true&width=495&lines=Full-Stack+Developer;Building+apps+%26+breaking+things" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=70A5FD&center=true&vCenter=true&width=495&lines=Building+Web+Apps;TypeScript+Development" alt="Typing SVG" />
 <!-- TYPING:END -->
 
 
