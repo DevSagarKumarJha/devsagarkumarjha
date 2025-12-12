@@ -2,7 +2,7 @@
   
 # Hey, I'm Sagar 👋
 
-<img src="./unnamed.gif" alt="Animation" />
+<!-- <img src="./unnamed.gif" alt="Animation" /> -->
 
 
 <!-- TYPING:START -->
