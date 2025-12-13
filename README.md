@@ -48,8 +48,8 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 <!-- STACK:START -->
   ⚡ JavaScript
   💙 TypeScript
-  🎨 CSS
   🌐 HTML/CSS
+  🎨 CSS
 <!-- STACK:END -->
 
 > _Auto-detected from my recent repositories_
@@ -188,7 +188,7 @@ HTML                     1 repo              ██░░░░░░░░░�
   
   <br/><br/>
   
-  <!-- UPDATED:START --> *Last updated: December 12, 2025* <!-- UPDATED:END -->
+  <!-- UPDATED:START --> *Last updated: December 13, 2025* <!-- UPDATED:END -->
   
 </div>
 
