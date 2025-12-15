@@ -6,7 +6,7 @@
 
 
 <!-- TYPING:START -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=70A5FD&center=true&vCenter=true&width=495&lines=Building+Web+Apps;TypeScript+Development" alt="Typing SVG" />
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=70A5FD&center=true&vCenter=true&width=495&lines=Building+Web+Apps;TypeScript+Development)
 <!-- TYPING:END -->
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/894502933801107476)](https://discord.com/users/894502933801107476)
@@ -67,12 +67,12 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=devsagarkumarjha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=devsagarkumarjha&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=devsagarkumarjha&theme=tokyonight&hide_border=true" />
+![My Github Statistics](https://github-readme-stats-eight-theta.vercel.app/api?username=devsagarkumarjha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![My Programming Languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=devsagarkumarjha&layout=compact&theme=tokyonight&hide_border=true)
+
+![Github Streak stats](https://github-readme-streak-stats-eight.vercel.app/?user=devsagarkumarjha&theme=tokyonight&hide_border=true)
 </div>
 
 ---
@@ -179,19 +179,22 @@ HTML                     1 repo              ██░░░░░░░░░�
 
 <div align="center">
   
-  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=addynoven.addynoven&left_color=grey&right_color=blueviolet&style=for-the-badge)
+  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=devsagarkumarjha.devsagarkumarjha&left_color=grey&right_color=blueviolet&style=for-the-badge)
   
   <br/>
   
-  <img src="https://img.shields.io/github/followers/devsagarkumarjha?style=for-the-badge&logo=github&label=Followers&color=1DA1F2" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/devsagarkumarjha?style=for-the-badge&logo=github&label=Stars&color=FFD700" alt="Stars" />
+  ![Stars](https://img.shields.io/github/stars/DevSagarKumarJha?style=for-the-badge&logo=github&label=Stars)
+  ![Followers](https://img.shields.io/github/followers/devsagarkumarjha?style=for-the-badge&logo=github&label=Followers)
   
   <br/><br/>
   
-  <!-- UPDATED:START --> *Last updated: December 15, 2025* <!-- UPDATED:END -->
+  <!-- UPDATED:START  -->
+  *Last updated: December 15, 2025*
+  <!-- UPDATED:END -->
   
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=60&section=footer"/>
+
+  ![Waving Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=60&section=footer)
 </p>
