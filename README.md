@@ -59,7 +59,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 
 <!--START_SECTION:activity-->
 
-1. ❌ Merged PR [#5](undefined) in [DevSagarKumarJha/me](https://github.com/DevSagarKumarJha/me)
+1. ❌ Merged PR [#7](undefined) in [DevSagarKumarJha/me](https://github.com/DevSagarKumarJha/me)
 <!--END_SECTION:activity-->
 
 ---
