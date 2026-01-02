@@ -49,6 +49,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
   💙 TypeScript
   🌐 HTML/CSS
   🎨 CSS
+  🦀 Rust
 <!-- STACK:END -->
 
 > _Auto-detected from my recent repositories_
