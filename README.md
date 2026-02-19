@@ -61,7 +61,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 
 <!--START_SECTION:activity-->
 
-1. 🔒 Closed issue [#14760](https://github.com/docker/for-win/issues/14760) in [docker/for-win](https://github.com/docker/for-win)
+1. 🎉 Merged PR [#6](https://github.com/DevSagarKumarJha/me/pull/6) in [DevSagarKumarJha/me](https://github.com/DevSagarKumarJha/me)
 <!--END_SECTION:activity-->
 
 ---
