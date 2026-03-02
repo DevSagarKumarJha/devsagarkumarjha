@@ -61,7 +61,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 
 <!--START_SECTION:activity-->
 
-1. 🎉 Merged PR [#9](https://github.com/DevSagarKumarJha/me/pull/9) in [DevSagarKumarJha/me](https://github.com/DevSagarKumarJha/me)
+1. 🗣 Commented on [#4](https://github.com/DevSagarKumarJha/examConnect/issues/4#issuecomment-3983717473) in [DevSagarKumarJha/examConnect](https://github.com/DevSagarKumarJha/examConnect)
 <!--END_SECTION:activity-->
 
 ---
