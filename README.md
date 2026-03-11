@@ -46,10 +46,9 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 
 <!-- STACK:START -->
   ⚡ JavaScript
-  💙 TypeScript
-  📦 MDX
-  🎨 CSS
   🦀 Rust
+  💙 TypeScript
+  🎨 CSS
   🌐 HTML/CSS
 <!-- STACK:END -->
 
