@@ -125,17 +125,16 @@ Sunday                   6 commits           █░░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Rust                     20 mins             ██████████████████░░░░░░░   71.35 % 
-Markdown                 8 mins              ███████░░░░░░░░░░░░░░░░░░   28.65 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  28 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-rust-pro                 28 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    28 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in JavaScript** 
@@ -151,7 +150,7 @@ Python                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 16/03/2026 13:07:11 UTC
+ Last Updated on 17/03/2026 01:58:27 UTC
 <!--END_SECTION:waka-->
 
 ---
