@@ -82,7 +82,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 ### ⏱️ WakaTime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-558%20hrs%201%20min-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-557%20hrs%2015%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-169.01%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -125,16 +125,19 @@ Sunday                   6 commits           █░░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JavaScript               30 mins             █████████████████░░░░░░░░   66.96 % 
+JSON                     15 mins             ████████░░░░░░░░░░░░░░░░░   32.63 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  46 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+http_server              33 mins             ██████████████████░░░░░░░   72.68 % 
+mvc                      12 mins             ███████░░░░░░░░░░░░░░░░░░   27.32 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    46 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -150,7 +153,7 @@ Python                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 21/03/2026 12:43:40 UTC
+ Last Updated on 22/03/2026 02:03:18 UTC
 <!--END_SECTION:waka-->
 
 ---
