@@ -82,7 +82,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 ### ⏱️ WakaTime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-607%20hrs%2050%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-606%20hrs%2044%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-186.81%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -125,17 +125,19 @@ Sunday                   12 commits          ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 1 hr 33 mins        █████████████████████████   100.00 % 
+Markdown                 1 hr 33 mins        ███████████████░░░░░░░░░░   58.71 % 
+JavaScript               1 hr 5 mins         ██████████░░░░░░░░░░░░░░░   41.29 % 
 
 🔥 Editors: 
-VS Code                  1 hr 33 mins        █████████████████████████   100.00 % 
+VS Code                  2 hrs 39 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-script                   1 hr 15 mins        ████████████████████░░░░░   81.33 % 
-redis_internals          17 mins             █████░░░░░░░░░░░░░░░░░░░░   18.67 % 
+script                   1 hr 15 mins        ████████████░░░░░░░░░░░░░   47.75 % 
+react-refresher          1 hr 5 mins         ██████████░░░░░░░░░░░░░░░   41.29 % 
+redis_internals          17 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.96 % 
 
 💻 Operating System: 
-Linux                    1 hr 33 mins        █████████████████████████   100.00 % 
+Linux                    2 hrs 39 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -151,7 +153,7 @@ Python                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 02/05/2026 13:06:31 UTC
+ Last Updated on 03/05/2026 02:43:01 UTC
 <!--END_SECTION:waka-->
 
 ---
