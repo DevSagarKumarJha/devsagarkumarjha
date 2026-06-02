@@ -82,7 +82,7 @@ hobbies: ["Coding", "Gaming", "Reading", "Building Side Projects"]
 ### ⏱️ WakaTime Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-615%20hrs%2050%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-616%20hrs%2017%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-209.65%20thousand%20lines%20of%20code-blue?style=flat)
 
@@ -125,16 +125,21 @@ Sunday                   16 commits          ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+SWIG                     12 mins             ████████████░░░░░░░░░░░░░   48.63 % 
+Assembly                 7 mins              ███████░░░░░░░░░░░░░░░░░░   26.85 % 
+XML                      2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.34 % 
+Wavefront Object         2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.87 % 
+C++                      1 min               ██░░░░░░░░░░░░░░░░░░░░░░░   06.31 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  26 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+HelloWorld               25 mins             ████████████████████████░   97.64 % 
+Unknown Project          0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.36 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  26 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -150,7 +155,7 @@ Python                   1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 02/06/2026 03:42:52 UTC
+ Last Updated on 02/06/2026 16:19:52 UTC
 <!--END_SECTION:waka-->
 
 ---
